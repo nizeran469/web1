@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web05</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table border="1"align="center"cellspacing="0">
+		<tr>
+			<td width="79" bgcolor="#FFFFFF">用户名:</td>
+			<td width="309" bgcolor="#FFFFFF"><input type="text"></td>
+		</tr>
+		<tr>
+			<td width="79" bgcolor="#FFFFFF">密码:</td>
+			<td width="309" bgcolor="#FFFFFF"><input type="text"/></td>
+		</tr><tr>
+			<td width="79" bgcolor="#FFFFFF">确认密码:</td>
+			<td width="309" bgcolor="#FFFFFF"><input type="text"/></td>
+		</tr>
+		<tr>
+			<td>性别:</td>
+			<td><form>男<input type="radio" checked="checked"name="sex" value="male"/> 
+			女<input type="radio" name="sex" value="female"></form></td>
+		</tr>
+		<tr>
+			<td>生日:</td>
+			<td>
+				<form>
+					<select name="年份">
+						<option value="1" selected="selected">公历</option>
+						<option value="2">1996</option>
+						<option value="3">1997</option>
+						<option value="4">1998</option>
+					</select>
+					<select name="年份1">
+						<option value="1" selected="selected">年</option>
+						<option value="2">1996</option>
+						<option value="3">1997</option>
+						<option value="4">1998</option>
+					</select>
+					<select name="月份">
+						<option value="1" selected="selected">月</option>
+						<option value="2">1</option>
+						<option value="3">2</option>
+						<option value="4">3</option>
+						<option value="4">4</option>
+						<option value="4">5</option>
+						<option value="4">6</option>
+						<option value="4">7</option>
+						<option value="4">8</option>
+						<option value="4">9</option>
+						<option value="4">10</option>
+						<option value="4">11</option>
+						<option value="4">12</option>
+					</select>
+					<select name="日期">
+						<option value="1" selected="selected">日</option>
+						<option value="2">1到10</option>
+						<option value="3">11到20</option>
+						<option value="4">21到31</option>
+					</select>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>所在地:</td>
+			<td>
+				<form>
+					<select name="国籍">
+						<option value="a" selected="selected">中国</option>
+						<option value="b">挪威</option>
+						<option value="c">俄罗斯</option>
+						<option value="d">丹麦</option>
+					</select>
+					<select name="省">
+						<option value="a" selected="selected">河北</option>
+						<option value="b">河南</option>
+						<option value="c">贵州</option>
+						<option value="d">山东</option>
+					</select>
+					<select name="城市">
+						<option value="a" selected="selected">石家庄</option>
+						<option value="b">唐山</option>
+						<option value="c">承德</option>
+						<option value="d">秦皇岛</option>
+					</select>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>验证码:</td>
+			<td><input type="text"/><img src="pi/yanzhengma.jpg" width="100"height="30"></td>
+		</tr>
+		<tr>
+			<td>证件类型:</td>
+			<td>
+				<form>
+					<select name="身份证">
+						<option value="56" selected="selected">身份证</option>
+						<option value="57">港澳移居证明</option>
+					</select>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>证件号:</td>
+			<td><input type="text"/></td>
+		</tr>
+		<tr>
+			<td>爱好:</td>
+			<td><form>
+				<input type="checkbox" name="ai" value="yinyue"/>音乐
+				<input type="checkbox" name="ai" value="dushu" checked="checked"/>读书
+				<input type="checkbox" name="ai" value="tiaowu" checked="checked"/>跳舞
+				<input type="checkbox" name="ai" value="xiaqi"/>下棋
+				<input type="checkbox" name="ai" value="qita"/>其他
+			</form></td>
+		</tr>
+		<tr>
+			<td>说明:</td>
+			<td><textarea cols="25" rows="5"></textarea></td>
+		</tr>
+		<tr>
+			<td>上传头像</td>
+			<td><form><input type="file" name="file"/></form> </td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><form>
+				<input type="submit" value="提交" name="222"/>
+				<input type="reset" value="重置" name="333" />
+				<input type="button" value="按钮" name="444"/>
+			</form></td>
+		</tr>
+	</table>
+
+</body>
+</html>
