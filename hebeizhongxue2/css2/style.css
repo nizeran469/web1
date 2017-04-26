@@ -1,0 +1,9 @@
+html{font-size: 12px;font-style: Arial;color: gray;line-height: 2em;}
+a:link{text-decoration: none;color: #727272}
+a:visited{color: #727272; }
+a:hover{text-decoration: underline;}
+.ip:link{color: white;}
+.ip:visited{color: white;}
+.ip:hover{text-decoration: none;color:#b9f605; }
+#sp{text-decoration: none;color: #fdb306;}
+h4{font-size: 14px;color:#b9f605; font-weight: bold;}
