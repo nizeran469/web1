@@ -1,0 +1,44 @@
+html{position: center;font-size: 12px;color: #522a06;padding: 0px;font-family: '宋体';list-style-type: none;}
+body{background-image:url(bodybg.gif); }
+#header{height:205px;background-image:url(bg.gif);
+background-repeat: no-repeat;background-position: 50% 0;}
+#banner{width:1000px;height:164px;margin: 0 auto;}
+#ll{position: absolute;top:38px;left:35px;}
+#nav{height:40px;background-image: url(nav.jpg);margin: 0 auto;}
+.nav_body{width:1000px;margin: 0 auto;}
+.nav_content{width:800px;font-weight: bolder;margin: 0px;color:white;float: left;}
+.nav_content a{height:40px;line-height:40px;text-decoration: none;color: white;}
+.nav_content a:hover{color: white;text-decoration: none;}
+#s{color:#f9f603;}
+.nav_search{float: left;}
+.t{float: left;margin: 4px;}
+.t input{width:140px;height:19px;background-color: #f8f5ee;}
+.ss{float: left;border: 0px solid #f8f5ee;}
+.ss input{background-color: #000;color: #fff;width:44px;height:21px;border:1px solid #f8f5ee;margin-top: 8px;}
+.dh{height: 40px;line-height: 40px;padding-left:300px;}
+.dh a{color: #522a06;}
+#footer{height:105px;clear:both;background-image: url(foot.gif);margin: 0 auto;}
+#ggg{margin-left: 500px;}
+#ggg ul li{float: left;list-style-type: none;margin-left: 10px;}
+#line{margin-left: 500px;width: 600px;}
+#ggg ul li a{text-decoration: none;color: #522a06;font-weight: bold;}
+#copy{text-align: center;}
+#jjj{text-align: center;}
+.content{width: 990px;margin: 0 auto;}
+.content_left{width: 200px;float: left;}
+.content_right{width: 760px;float: right;}
+.shang{background-image: url(bg.png);}
+.shang ul li{list-style-type: none;font-weight: bolder;}
+.middle ul li{list-style-type: none;}
+.sp{background-image: url(menubg.gif);color: #902a06;width: 100px;margin-left: 25px;}
+.zz{margin-left: 20px;font-size: 13px;font-weight: bolder;}
+.middle{background-image: url(bg.png);}
+.sj{float: right;}
+.listtitle{background-image: url(listtitle.png);height: 45px;}
+li{line-height: 25px;height: 25px;}
+.wenzi{height: 20px;color:  #902a06;font-size: 30px;margin-left: 70px;margin-top: 8px;font-weight: bolder;}
+.ys{margin: 0 auto;margin-left: 50px;}
+.xx{width: 20px;height: 20px;display: block;float: left;margin: 5px;color: black;}
+.xx a{color: black;text-decoration: none;}
+.xys{border:1px solid #c9baa5;width: 20px;height: 20px;display: block;float: left;margin: 5px;color: black;line-height: 20px;}
+.xys a{text-decoration: none;color: black;}
