@@ -1,0 +1,4 @@
+.img a img{width: 200px;height: 160px; opacity: 0.5;}
+.de{margin-left: 80px}
+.img{float: left;margin: 12px;border: 1px solid #bebebe;}
+.img a:hover img{border: 1px solid #333333;opacity: 1;}
