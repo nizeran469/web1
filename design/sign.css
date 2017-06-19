@@ -1,0 +1,54 @@
+*{margin: 0px;padding: 0px;}
+a{text-decoration: none;color: white}
+a:hover{text-decoration: none;}
+
+body
+{font-family: '幼圆';
+height: 700px;width: 1519px;
+background-color: black;
+background-position: top center;
+background-repeat: no-repeat;
+overflow: hidden;}
+
+
+#body{height: 650px;background-image: url(pi/sign.jpg);
+background-repeat: no-repeat;}
+
+
+#content
+{width: 1000px;height: 445px;
+margin: 0px auto;padding-top: 90px}
+
+#content form
+{width: 280px;height: auto;
+margin: 0px auto;
+padding-top: 150px;}
+
+#content p
+{color: white;font-size: 25px}
+
+#use {float: left;width: 310px}
+#use p{float: left;}
+#use input{float: right;height: 25px;width: 200px}
+
+#p {margin-top: 20px;float: left;width: 310px}
+#p p{float: left;}
+#p input{float: right;height: 25px;width: 200px}
+
+#botton{float: left;width: 280px;margin-top: 40px}
+#botton input
+{float: right;
+	margin-left: 28px;
+	width: 52px;
+	background: transparent;
+	font-size: 15px;bo
+	height: 25px;color: white;border-radius: 7px}
+
+.bottom{width: 100%;height: auto;clear: both;}
+#us{height: 60px;background-color: #5f5e5e;}
+
+ .jia{height: 25px;width: 1000px;margin-left: 450px;color: white;padding-top: 30px}
+  .jiao:hover{color: #e97459;}
+
+ .jiao{padding-right: 10px;padding-left: 10px;color: white;}
+#banquan{height: 50px;background-color: #000000;text-align: center;color: white;padding-top: 8px}
