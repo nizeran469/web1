@@ -11,15 +11,15 @@ body{background-color: #eee;}
 
 .bottom{float: left;padding-top: 5px;font-size: 12px;}
 .left{width: 234px;height: 628px;float: left;background-image: url(mijia.jpg);margin-left: 150px }
-.right {float: left;width:978px;margin-left: 14px;}
-.right ul{list-style-type:none;}
-.right ul li{float: left;width:230px;height: 300px;background-color: #fff;margin-right: 14px;margin-bottom: 14px;}
+#right {float: left;width:978px;margin-left: 14px;}
+#right ul{list-style-type:none;}
+#right ul li{float: left;width:230px;height: 300px;background-color: #fff;margin-right: 14px;margin-bottom: 14px;}
 
-.right li:hover{position: relative;top: -5px;bottom: -5px;}
-.right li:hover .orange{z-index: 10px;width:170px;height: 66px;background-color: #ff6700;
+#right li:hover{position: relative;top: -5px;bottom: -5px;}
+#right li.next .orange{z-index: 10px;width:170px;height: 66px;background-color: #ff6700;
 				position: relative;top: -73px;color: white;padding-left:30px;padding-top: 20px;padding-right: 30px;
 				display: block;}
-.right li p{text-align: center;overflow: hidden;}
+#right li p{text-align: center;overflow: hidden;}
 	.count{height: 20px;}	
 		#red{background-color: #e53935;color: #fff;width: 60px;height: 20px;text-align: center;margin-left: 85px}
 		#green{background-color:#83c44e;color: #fff;width: 60px;height: 20px;text-align: center;margin-left: 85px}
@@ -28,7 +28,7 @@ body{background-color: #eee;}
 			img{width: 150px;height: 150px;}
 		.price{color: #ff6700;line-height: 50px;margin: 0 10px 10px;font-size: 15px;}
 		#underline{text-decoration: line-through;}
-	 	.orange{z-index: 2px;width:170px;background-color: #ff6700;height: 66px;
+#right	li 	.orange{z-index: 2px;width:170px;background-color: #ff6700;height: 66px;
 			 	position: relative;top: -73px;color: white;padding-left:30px;padding-top: 20px;padding-right: 30px;
 				display: none; }
 #ex{background-color: #eee;}

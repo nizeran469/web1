@@ -1,0 +1,55 @@
+*{margin: 0px;padding:0px;color: #b0b0b0;}
+body{background-color: #eee;}
+.top{height: 50px;margin-top: 10px}
+.top li{display: inline-block;color: #424242;border-bottom: 2px soild transparent;padding-right: 25px;}
+.top ul{padding: 16px 0 0;list-style-type:none;font-size: 16px;}
+.ul{float: right;margin-right: 150px}
+.ul li:hover{color: #ff6700;text-decoration: underline;}
+.title{width: 50px;padding-left: 150px;margin-left: 0px;}
+.title {font-size: 22px;font-weight: 200;line-height: 50px;color: #333;display: block;float:left ;}
+
+
+.bottom{float: left;padding-top: 5px;font-size: 12px;}
+.left{width: 234px;height: 628px;float: left;background-image: url(mijia.jpg);margin-left: 150px }
+#right {float: left;width:978px;margin-left: 14px;}
+#right ul{list-style-type:none;}
+#right ul li{float: left;width:230px;height: 300px;background-color: #fff;margin-right: 14px;margin-bottom: 14px;}
+
+#right li:hover{position: relative;top: -5px;bottom: -5px;}
+#right li.next .orange{z-index: 10px;width:170px;height: 66px;background-color: #ff6700;
+				position: relative;top: -73px;color: white;padding-left:30px;padding-top: 20px;padding-right: 30px;
+				display: block;}
+#right li p{text-align: center;overflow: hidden;}
+	.count{height: 20px;}	
+		#red{background-color: #e53935;color: #fff;width: 60px;height: 20px;text-align: center;margin-left: 85px}
+		#green{background-color:#83c44e;color: #fff;width: 60px;height: 20px;text-align: center;margin-left: 85px}
+		h3{font-size: 14px;font-weight: 400;text-align: center;color: #333;}
+		.show{height: 150px;width: 150px;margin-left: 40px;margin-bottom: 20px}
+			img{width: 150px;height: 150px;}
+		.price{color: #ff6700;line-height: 50px;margin: 0 10px 10px;font-size: 15px;}
+		#underline{text-decoration: line-through;}
+#right	li 	.orange{z-index: 2px;width:170px;background-color: #ff6700;height: 66px;
+			 	position: relative;top: -73px;color: white;padding-left:30px;padding-top: 20px;padding-right: 30px;
+				display: none; }
+#ex{background-color: #eee;}
+#ex:hover{position: relative;top: 0px;bottom: 0px;}
+
+.more_top{width: 230px;height: 143px;margin-bottom: 14px;background-color: #fff;}
+.more_top:hover,.more:hover{position: relative;top: -5px;bottom: -5px;}
+#left{float: left;padding-left: 30px;padding-top: 35px;}
+.more_top img{height: 80px;width: 80px;margin-left: 30px;margin-top: 25px;}
+.more{width: 230px;height: 143px;margin-bottom: 14px;}
+.more img{width: 230px;height: 143px;}
+/*.ul2{display: none;z-index: 3}
+.ul3{display: none;z-index: 4}
+.ul4{display: none;z-index: 5}*/
+
+
+
+
+
+
+
+
+
+

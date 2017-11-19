@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>小米——家电</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="mi.css">
+</head>
+<body>
+<div>
+	<div class="top">
+		<div class="title">家电</div>
+		<div class="ul">
+			<ul>
+				<li id="first">热门</li>
+				<li id="second">电视影音</li>
+				<li id="third">电脑</li>
+				<li id="forth">家居</li>
+			</ul>			
+		</div>
+	</div>
+	<div class="bottom">
+			<div class="left"></div>
+			<div id="right">
+				<ul  style="display:block;">
+					<li>
+						<div class="count">
+							<p id="red">享9折</p>
+						</div>
+						<div class="show">
+							<img src="mi1.jpg">
+						</div>
+						<h3>小米电视4A 32"</h3>
+						<p>64位四核处理器/1GB+4GB大内存</p>
+						<p class="price">999元<span id="underline">1199元</span></p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li>
+						<div class="count">
+						</div>
+						<div class="show">
+							<img src="mi2.png">
+						</div>
+						<h3>小米电视4A 49英寸 标准版</h3>
+						<p>2GB+8GB 大存储 / 全高清HDR</p>
+						<p class="price">2399元</p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li>
+						<div class="count">
+							<p id="green">新品</p>
+						</div>
+						<div class="show">
+							<img src="mi3.jpg">
+						</div>
+						<h3>小米笔记本Pro 15.6英寸</h3>
+						<p>全金属强化机身/FHD全贴合屏幕</p>
+						<p class="price">5599元</p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li>
+						<div class="count">
+						</div>
+						<div class="show">
+							<img src="mi4.jpg">
+						</div>
+						<h3>小米笔记本Air 13.3"i7处理器</h3>
+						<p>Intel酷睿i7处理器，8GB内存+256GB</p>
+						<p class="price">5999元</p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li>
+						<div class="count">
+						</div>
+						<div class="show">
+							<img src="mi5.jpg">
+						</div>
+						<h3>米家恒温电水壶</h3>
+						<p>水温智能控制，304不锈钢内胆</p>
+						<p class="price">199元></p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li>
+						<div class="count">
+							<p id="green">新品</p>
+						</div>
+						<div class="show">
+							<img src="mi6.jpg">
+						</div>
+						<h3>智米全直流变频空调</h3>
+						<p>一级能效，强劲冷暖</p>
+						<p class="price">4399元</p>
+					</li>
+					<li>
+						<div class="count">
+						</div>
+						<div class="show">
+							<img src="mi7.jpg">
+						</div>
+						<h3>小米净水器（厨上式）增强版</h3>
+						<p>400加仑大流量，纯水更多，废水更少</p>
+						<p class="price">1499元</p>
+						<div class="orange">
+							听说小米客服满腹经纶，能不能为在下对副对联，上联是......
+						</div>
+					</li>
+					<li id="ex">
+						<div class="more_top">
+							<div id="left">
+							<h3>小白摄像机</h3>
+							<p class="price">399元</p>
+							</div>
+							<img src="mi8.jpg">
+						</div>
+						<div class="more">
+							<img src="mi9.png">
+						</div>
+					</li>
+				</ul>
+			</div>
+	</div>	
+	
+</div>
+
+</body>
+<script type="text/javascript">	
+  	var liNodes = document.getElementsByTagName("li");
+			for (var i=0; i<liNodes.length; i++)
+			{
+				liNodes[i+4].onmouseover = function(){
+					this.className = "next";
+				}
+				
+				liNodes[i+4].onmouseout = function(){
+					this.className = "";}
+			}
+</script>
+</html>
