@@ -1,0 +1,153 @@
+div{
+	display: block;
+}
+body{
+	font-size: 12px;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+#top
+{
+	width:1000px;
+	height:90px;
+	border-top: 5px solid #284c7e;
+	z-index: 9999;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+.logo
+{
+	width: 40px;
+	float: left;
+	margin-top: 13px;
+}
+.search
+{
+float: right;
+height: 80px;
+margin-top: 10px;
+text-align: right;
+line-height: 28px;
+}
+.old a{
+	color: #fc8200;
+}
+.sea input{
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	width: 200px;
+	border:1px solid #b6b6b6;
+
+	padding-left: 10px;
+}
+.nav{
+	width: 1000px;
+	height: 55px;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding-top: 5px;
+	position: relative;
+	z-index: 999;
+}
+#easynav{
+	float: left;
+	padding: 0px;
+   list-style-type: none;
+   margin: 0px
+}
+#easynav li {
+	float: left;
+	width: 110px;
+	line-height: 45px;
+	position: relative;
+}
+#easynav li a{
+	width: 110px;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+#easynav li ul{
+	display: none;
+	background-color: #0e6eb8;
+	float: none;
+	list-style-type: none;
+	padding: 0px;
+}
+#easynav li.Show ul{
+	display: block;
+	background-color: #0e6eb8;
+	float: none;
+	list-style-type: none;
+	z-index: 999px;
+	padding: 0px;
+}
+#easynav li ul li a{
+	float: left;
+	background-color: #0e6eb8;
+}
+#easynav li :hover{
+	background-color:#0e6eb8;
+	color: #fff;
+}
+/*.pic{
+	height: 400px;
+	width: 1500px;
+	position: absolute;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #eee;
+}*/
+.pic img{
+	position: absolute;
+	margin: 0 auto;
+
+	left: 150px;
+	position: absolute;
+	width: 1200px;
+	height: 400px;
+}
+.pic{
+			width: 1520px;
+			height:400px;
+			position: absolute;
+			margin: 0 auto;
+              background-color: #eee;
+			overflow: hidden;
+			
+	}
+.pic a{
+			width: 1200px;
+	       height: 400px;
+			display: none;
+			position: absolute;
+			margin: 0 auto;
+		}
+.bottom{
+			width: 1000px;
+			height: 73px;
+			bottom: 0px;
+			left:250px;
+			position: absolute;
+			background: url(19.png);		
+		}
+.bottom>span{
+			width: 50px;
+			height: 73px;
+			line-height: 73px;
+			text-align: center;
+			color: #fff;
+			font-size: 25px;
+			float: left;
+			cursor: pointer;
+		}
+#next{
+			float: right;
+		}
+
